@@ -8,4 +8,5 @@ public class EmailException extends RuntimeException{
     public EmailException(String msg, Throwable throwable){
         super(msg, throwable);
     }
+
 }
